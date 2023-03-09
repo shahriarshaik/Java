@@ -1,0 +1,87 @@
+til å begynne med vi må implementere fire sorterings algorytmer
+
+2 faste og 2 valgfrie
+
+faste: 
+    - insertion sort
+    - quicksort
+
+valgfrie bestemmer du selv og kan være utenfor pensum
+
+"jeg tenker å ta: bubble sort og selection sort" 
+
+
+det forventes at alle algorytmene skal gi samme output
+
+
+_______________________________________________________________________________
+
+Deloppgave 1: korrekthet
+
+
+vi skal lage filer med outputen med format inputfilnavn_alorytme.filtype
+
+
+_______________________________________________________________________________
+
+
+Deloppgave 2: sammenligninger, bytter og tid 
+
+alogorytmene må telle:
+    - antall sammenlikninger
+    - antall bytter
+
+hvis det er n heltall så gjør man n + 1 sorteringer
+
+eks første linje i filen: 
+n, alg1_cmp, alg1_swaps, alg1_time, alg2_cmp, alg2_swaps, alg2_time
+
+n: antall elementer sortert
+
+alg1_cmp: hvor mange sammenlikninger
+
+alg1_swaps: antall bytter
+
+alg1_time: antall tid brukt (i mikrosekunder)
+
+
+dette er de 4 tallene som skal tas hensyn til
+
+
+eks output 
+
+_____________________________________________________________________________________
+|n,  |insert_cmp, |insert_swaps, |insert_time, |quick_cmp, |quick_swaps, |quick_time|
+|0,  |0,          |0,            |1,           |0,         |0,           |0         |
+|1,  |0,          |0,            |0,           |0,         |0,           |1         |
+|2,  |1,          |0,            |2,           |5,         |2,           |5         |
+|3,  |3,          |2,            |4,           |10,        |2,           |6         |
+|4,  |6,          |4,            |6,           |21,        |5,           |11        | 
+|5,  |9,          |6,            |7,           |28,        |8,           |15        | 
+|6,  |12,         |8,            |10,          |29,        |9,           |16        | 
+|7,  |18,         |13            |15,          |40,        |11,          |21        | 
+|8,  |19,         |13            |15,          |44,        |12,          |23        | 
+|9,  |27,         |20            |22,          |45,        |13,          |23        | 
+|____|____________|______________|_____________|___________|_____________|__________|
+
+
+_______________________________________________________________________________
+
+Deloppgave 3: eksperimenteer
+
+
+reflekter på disse spørsmålene:
+
+• I hvilken grad stemmer kjøretiden overens med kjøretidsanalysene (store
+O) for de ulike algoritmene?
+
+• Hvordan er antall sammenligninger og antall bytter korrelert med kjøre‐
+tiden?
+
+• Hvilke sorteringsalgoritmer utmerker seg positivt når n er veldig liten?
+Og når n er veldig stor?
+
+• Hvilke sorteringsalgoritmer utmerker seg positivt for de ulike inputfile‐
+ne?
+
+• Har du noen overraskende funn å rapportere?
