@@ -1,0 +1,11 @@
+Du skal ikke modifisere klassen PasientPrio i dette oppgavesettet, og i ditt program skal sil-trådene bruke denne
+klassen slik den er. Men hva mener du burde vært gjort med klassen PasientPrio siden den skal brukes av mange
+tråder samtidig. Begrunn svaret ditt.
+
+mitt svar: 
+bruke en monitor for å låse og åpne de to arraylistene slik at flere tråder ikke henter et felles ressurs. (feil)
+
+riktig svar:
+ingen endring siden trådene aldri jobber med samme data
+
+hvofor jobber de ikke med samme data?? kanskje fordi hver gang de blir brukt så tas de ut av listen.
