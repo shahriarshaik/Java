@@ -1,0 +1,14 @@
+ting jeg gjør feil:
+
+-------------------------------------------------------------------
+når jeg implementerer comperable eks: 
+public class Tidspunkt implements Comparable<Tidspunkt>{
+
+tar jeg ikke med:
+    @Override
+    public int compareTo(Tidspunkt o) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+-------------------------------------------------------------------
+
