@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Oblig5Hele",
+            "request": "launch",
+            "mainClass": "Oblig5Hele",
+            "projectName": "IN1010 git_c0d30c40"
+        },
+        {
+            "type": "java",
+            "name": "Launch Oblig5Hele",
+            "request": "launch",
+            "mainClass": "Oblig5Hele",
+            "projectName": "oblig 5 git_3f9e0bd4"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "oblig 5 git_3f9e0bd4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "IN1010 git_c0d30c40"
+        }
+    ]
+}
